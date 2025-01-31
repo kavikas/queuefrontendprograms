@@ -1,0 +1,133 @@
+
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px 10px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1a73e8;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.header-button {
+  background-color: white;
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 2px solid #1a73e8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+
+.intro {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.intro h1 {
+  color: #1a73e8;
+}
+
+
+.image-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.system-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.buttons-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  border: 3px solid #1a73e8;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden; 
+}
+
+.circle img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.circle:hover {
+  background-color: #1a73e8;
+  transform: scale(1.1);
+}
+
+.circle-container h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+.circle-container p {
+  font-size: 14px;
+  color: #555;
+  width: 150px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}

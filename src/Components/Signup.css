@@ -1,0 +1,90 @@
+/* Bank-themed background 
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 700px;
+  background: linear-gradient(135deg, #052b4d, #0055A4);
+}
+*/
+/* Centered form */
+form {
+  background: transparent; /* Remove the white card */
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+/* Form headings */
+h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  color: #ffffff; /* Change label color to white */
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #d4dce3;
+  outline: none;
+  box-shadow: 0 0 5px rgba(215, 218, 221, 0.5);
+}
+
+/* Signup button */
+.signup-btn {
+  width: 300px;
+  padding: 12px;
+  background: #ffffff;
+  color: #07396b;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background: #3c78d2;
+}
+
+/* Login link */
+.login-link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.login-link span {
+  color: #1a0aaf;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-link span:hover {
+  color: #2a68e2;
+  text-decoration: underline;
+}
